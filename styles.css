@@ -1,0 +1,111 @@
+@font-face {
+    font-family: Young Serif;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+
+}
+@font-face {
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+*{
+    margin: auto;
+    /* padding: 0; */
+     
+  }
+body{
+    background-color: hsl(30, 54%, 90%);
+    margin: auto;
+}
+.all{
+    background-color: hsl(0, 0%, 100%);
+    width: 34%;
+    /*height: 1000px;*/
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: 'Outfit';
+    font-size: 10px;
+    font-weight: 400;
+}
+.image{
+    width: 100%;
+    border-radius: 10px;
+}
+.simple{
+    font-family: 'Young Serif';
+    font-weight: 400;
+    font-size: 30px;
+    color: hsl(24, 5%, 18%);
+    padding: 10px;
+}
+#easy{
+    font-weight:500;
+    opacity: 65%;
+}
+h3{
+    padding: 10px;
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif';
+    font-weight: 400;
+    font-size: 17px;
+}
+#prep{
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+    font-size: 12px;
+}
+.prep{
+   background-color: hsl(330, 100%, 98%);
+   padding: 20px;
+   border-radius: 10px;
+   margin: 10px;
+   opacity: 70%;
+    /*width: 400px;
+    height: 100px;*/
+}
+.prep ul{
+    padding: 20px ;
+    padding-bottom: 10px;
+}
+.prep li{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+hr{
+    color: hsl(30, 18%, 87%);
+    opacity: 0.3;
+}
+.ingredients li{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    font-weight: 400;
+    opacity: 75%;
+    /*padding-left: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;*/
+}
+.instructions{
+    padding: 10px;
+    padding-left: 0;
+}
+.instructions li{
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-weight: 400;
+    opacity: 75%;
+}
+table{
+    width: 100%;
+    padding: 10px;
+}
+table tr{
+    width: 30px;
+}
+#right{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
