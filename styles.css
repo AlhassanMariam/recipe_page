@@ -26,7 +26,7 @@ body{
     padding: 20px;
     border-radius: 15px;
     font-family: 'Outfit';
-    font-size: 10px;
+    font-size: 9px;
     font-weight: 400;
 }
 .image{
@@ -36,20 +36,21 @@ body{
 .simple{
     font-family: 'Young Serif';
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
     color: hsl(24, 5%, 18%);
     padding: 10px;
 }
 #easy{
     font-weight:500;
     opacity: 65%;
+    padding-left: 8px;
 }
 h3{
     padding: 10px;
     color: hsl(14, 45%, 36%);
     font-family: 'Young Serif';
     font-weight: 400;
-    font-size: 17px;
+    font-size: 15px;
 }
 #prep{
     color: hsl(332, 51%, 32%);
@@ -58,7 +59,7 @@ h3{
 }
 .prep{
    background-color: hsl(330, 100%, 98%);
-   padding: 20px;
+   padding: 10px;
    border-radius: 10px;
    margin: 10px;
    opacity: 70%;
@@ -66,8 +67,8 @@ h3{
     height: 100px;*/
 }
 .prep ul{
-    padding: 20px ;
-    padding-bottom: 10px;
+    padding: 10px ;
+    padding-bottom: 5px;
 }
 .prep li{
     padding-left: 10px;
@@ -101,11 +102,19 @@ hr{
 table{
     width: 100%;
     padding: 10px;
+    border-collapse: collapse;
 }
-table tr{
+#tr{
+    border-bottom: 1px solid;
+    border-color: hsl(30, 18%, 87%);
+    height: 20px;
     width: 30px;
 }
 #right{
     color: hsl(14, 45%, 36%);
     font-weight: 600;
 }
+#nutt{
+    padding-left: 10px;
+}
+@media
