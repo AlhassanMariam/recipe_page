@@ -7,26 +7,22 @@
     font-family: Outfit;
     src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
-*{
-    margin: auto;
-    /* padding: 0; */
-     
-  }
 body{
+    min-height: 100vh;
     background-color: hsl(30, 54%, 90%);
-    margin: auto;
+    display: grid;
+    place-items: center;
 }
 .all{
     background-color: hsl(0, 0%, 100%);
     width: 34%;
-    /*height: 1000px;*/
     border-radius: 5px;
     margin-top: 20px;
     margin-bottom: 30px;
     padding: 20px;
     border-radius: 15px;
     font-family: 'Outfit';
-    font-size: 9px;
+    font-size: 10px;
     font-weight: 400;
 }
 .image{
@@ -84,13 +80,6 @@ hr{
     justify-content: space-between;
     font-weight: 400;
     opacity: 75%;
-    /*padding-left: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;*/
-}
-.instructions{
-    padding: 10px;
-    padding-left: 0;
 }
 .instructions li{
     justify-content: space-between;
@@ -115,6 +104,5 @@ table{
     font-weight: 600;
 }
 #nutt{
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
-@media
